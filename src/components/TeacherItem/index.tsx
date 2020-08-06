@@ -3,34 +3,50 @@ import './styles.css'
 
 import whatsappIcon from '../../assets/images/icons/whatsapp.svg'
 
-function TeacherItem() {
+import api from '../../services/api';
+
+export interface Teacher {
+  id: number;
+  avatar: string;
+  bio: string;
+  cost: number;
+  name: string;
+  subject: string;
+  whatsapp: string;
+}
+
+interface TeacherItemProps {
+  teacher: Teacher
+}
+
+const TeacherItem: React.FC<TeacherItemProps> = ({ teacher }) => {
+
+  function createNewConnection() {
+    api.post('/connections', {
+      user_id: teacher.id
+    })
+  }
   return (
     <article className="teacher-item">
-    <header>
-      <img src="https://avatars2.githubusercontent.com/u/2254731?s=460&u=0ba16a79456c2f250e7579cb388fa18c5c2d7d65&v=4" alt="Diego Fernandes"/>
-      <div>
-        <strong>Diego Fernandes</strong>
-        <span>React</span>
-      </div>
-    </header>
+      <header>
+        <img src={teacher.avatar} alt={teacher.name} />
+        <div>
+          <strong>{teacher.name}</strong>
+          <span>{teacher.subject}</span>
+        </div>
+      </header>
 
-    <p>
-      Enthusiast of the best web & mobile development technologies.
-      <br/><br/>
-      Passionate about education and changing people's lives through programming. More than 200,000 people have already undergone one of my trainings.
-    </p>
+      <p>{teacher.bio}</p>
 
-    <footer>
-      <p>
-        Preço/Hora
-        <strong>R$ 80,00</strong>
-      </p>
-        <button type="button">
-          <img src={whatsappIcon} alt="Whatsapp"/>
+      <footer>
+        <p>Preço/Hora<strong>R$ {teacher.cost}</strong></p>
+
+        <a onClick={createNewConnection} target="_blank" href={`https://wa.me/${teacher.whatsapp}`} >
+          <img src={whatsappIcon} alt="Whatsapp" />
           Entrar em contato
-        </button>
-    </footer>
-  </article>
+        </a>
+      </footer>
+    </article>
   );
 }
 
