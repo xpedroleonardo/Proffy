@@ -1,9 +1,3 @@
-<div align="center">
-    
-## Proffy
-    
-</div>
-
 <div align="center" >
 
 ## 🚀💜 Sua plataforma de estudos online.
