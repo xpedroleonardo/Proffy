@@ -1,6 +1,6 @@
 <div align="center">
     
-<h4 style="font-size: 40px ;">Proffy</h4>
+## Proffy
     
 </div>
 
