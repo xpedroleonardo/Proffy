@@ -13,8 +13,8 @@
 
 ##  Demonstração do Projeto
 
-<figure class="video_container" align="center">
-  <video  controls="true" allowfullscreen="true" width="750" poster="./src/assets/README/proffy-web.png">
+<figure class="video_container">
+  <video controls="true" allowfullscreen="true" poster="./src/assets/README/proffy-web.png">
     <source src="./src/assets/README/proffy-web.mp4" type="video/mp4">
   </video>
 </figure>
