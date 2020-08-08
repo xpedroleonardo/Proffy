@@ -16,8 +16,6 @@
 <figure class="video_container" align="center">
   <video  controls="true" allowfullscreen="true" width="750" poster="./src/assets/README/proffy-web.png">
     <source src="./src/assets/README/proffy-web.mp4" type="video/mp4">
-    <source src="./src/assets/README/proffy-web.ogg" type="video/ogg">
-    <source src="./src/assets/README/proffy-web.webm" type="video/webm">
   </video>
 </figure>
 
