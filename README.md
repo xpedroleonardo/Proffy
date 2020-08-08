@@ -1,6 +1,6 @@
-<div align="center" height="200px" style="background: #8257E5 !important;">
+<div align="center" height="200px" style="background: '#8257E5' !important;">
     <img style="margin-top: 20px;" src="./src/assets/images/logo.svg">
-    
+
 </div>
 <div align="center" >
 
@@ -13,11 +13,9 @@
 
 ##  Demonstração do Projeto
 
-<figure class="video_container">
-  <video controls="true" allowfullscreen="true" poster="./src/assets/README/proffy-web.png">
-    <source src="./src/assets/README/proffy-web.mp4" type="video/mp4">
-  </video>
-</figure>
+<div align="center">
+    <img  src="./src/assets/README/proffy-web.png">
+</div>
 
 ---
 
