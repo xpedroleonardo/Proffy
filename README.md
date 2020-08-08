@@ -1,4 +1,5 @@
 <div align="center" >
+    <img src="./src/assets/README/proffy-logo.png" />
 
 ## 🚀💜 Sua plataforma de estudos online.
     
