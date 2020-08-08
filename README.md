@@ -1,6 +1,6 @@
 <div align="center">
     
-<p style="font-size: 34px ;">Proffy</p>
+<h4 style="font-size: 40px ;">Proffy</h4>
     
 </div>
 
