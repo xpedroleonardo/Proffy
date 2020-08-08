@@ -1,7 +1,9 @@
-<div align="center" height="200px" style="background: '#8257E5' !important;">
-    <img style="margin-top: 20px;" src="./src/assets/images/logo.svg">
-
+<div align="center">
+    
+# Proffy
+    
 </div>
+
 <div align="center" >
 
 ## 🚀💜 Sua plataforma de estudos online.
