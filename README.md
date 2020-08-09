@@ -77,6 +77,12 @@ Para executar esse projeto, antes você precisa seguir os passos para baixar e r
 
 Acesse http://localhost:3000/ e explore o projeto.
 
+## ⚠ Atenção !!!
+
+Se você fechar o terminal que o projeto está sendo executado, ele irá parar de funcionar, e isso vai impedir que você utilize a aplicação Web.
+
+Deixe o terminal aberto após rodar os comandos para executar o projeto.
+
 ---
 
 ### 💻 Feito por [Pedro Leonardo](https://github.com/xpedroleonardo). 
