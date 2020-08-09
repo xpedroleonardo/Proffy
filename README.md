@@ -6,7 +6,6 @@
 </div>
 
 
----
 
 ##  Demonstração do Projeto
 
@@ -14,7 +13,6 @@
     <img  src="./src/assets/README/proffy-web.png">
 </div>
 
----
 
 ## 📑 Sobre
 
@@ -23,13 +21,11 @@ Aplicação web construída na NLW (Next Level Week) #2 da [Rocketseat](https://
 - Layout Responsivo
 - SPA (Single-page application)
 
----
 
 ## ♻ Recursos
 
 - Plataforma Web, para cadastro e listagem de professores.
 
----
 
 ## 👨‍💻 Tecnologias 
 
@@ -39,7 +35,6 @@ O projeto foi desenvolvido utilizando
 - TypeScript
 - CSS
 
----
 
 ## ⚠ Requisitos
 
@@ -47,7 +42,6 @@ Para executar esse projeto, antes você precisa seguir os passos para baixar e r
 
 [Baixe a API aqui.](https://github.com/xpedroleonardo/Proffy-Server)
 
----
 
 ## ⬇ Como baixar o projeto
 
@@ -63,7 +57,6 @@ Para executar esse projeto, antes você precisa seguir os passos para baixar e r
 
 ```
 
----
 
 ## 🚀 Como executar o projeto
 
@@ -84,7 +77,6 @@ Para executar esse projeto, antes você precisa seguir os passos para baixar e r
 
 Acesse http://localhost:3000/ e explore o projeto.
 
----
 
 ### 💻 Feito por [Pedro Leonardo](https://github.com/xpedroleonardo). 
 
