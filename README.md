@@ -77,6 +77,7 @@ Para executar esse projeto, antes você precisa seguir os passos para baixar e r
 
 Acesse http://localhost:3000/ e explore o projeto.
 
+---
 
 ### 💻 Feito por [Pedro Leonardo](https://github.com/xpedroleonardo). 
 
